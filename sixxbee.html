@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>sixxbee</title>
+  <style>
+  
+      @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Poppins&display=swap');
+    body {
+      margin: 0; padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #FFF8F0;
+      color: #333;
+    }
+    header {
+      background: #FFB6B9;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-family: 'Comic Neue', cursive;
+      font-size: 2.5em;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    nav {
+      background: #F6EAC2;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+      font-weight: 600;
+      font-size: 1.1em;
+    }
+    nav a {
+      color: #FF6F91;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #FF3B5C;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 15px 50px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    h2 {
+      font-family: 'Comic Neue', cursive;
+      color: #FF6F91;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #FFB6B9;
+      padding-bottom: 8px;
+    }
+    /* Beranda */
+    #beranda p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    /* Teacher*/
+    #Teacher ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.1e,;
+    }
+    #Teacher li {
+      background: #FFE9E9;
+      margin: 7px 0;
+      padding: 10px 15px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px rgba(255, 111, 145, 0.3);
+    }
+    /* Struktur Organisasi */
+    #struktur li {
+      background: #FFE9E9;
+      margin: 7px 0;
+      padding: 10px 15px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 5px rgba(255,111,145,0.3);
+    }
+    /* Absen Kelas */
+    #absen ol {
+      padding-left: 20px;
+      font-size: 1.1em;
+    }
+    #absen ol li {
+      margin-bottom: 6px;
+      background: #FFF3E0;
+      padding: 8px 12px;
+      border-radius: 8px;
+      box-shadow: 1px 1px 5px rgba(255,182,185,0.4);
+    }
+    /* Galeri Foto */
+    #galeri {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+      gap: 15px;
+    }
+    #galeri img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(255,111,145,0.4);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    #galeri img:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9em;
+      color: #888;
+      border-top: 1px solid #f0f0f0;
+    }
+
+    .card-organisasi {
+  display: flex;
+  align-items: center;
+  background: #FFE9E9;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 1px 1px 6px rgba(255, 111, 145, 0.2);
+  gap: 15px;
+}
+
+.card-organisasi img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.card-organisasi .info {
+  flex: 1;
+}
+
+  </style>
+</head>
+<body>
+
+<header>Memories 6B</header>
+
+<nav>
+  <a href="#beranda">Beranda</a>
+  <a href="#struktur">Struktur Organisasi</a>
+  <a href="#absen">Absen Kelas</a>
+  <a href="#galeri">Galeri Foto</a>
+</nav>
+
+<main>
+  <section id="beranda">
+    <h2>Selamat Tinggal 6B!</h2>
+    <p>Terima kasih 6B atas semua tawa, cerita, dan kenangan manis selama kita bersama. Semoga perjalanan kalian selanjutnya penuh warna dan kebahagiaan! Jangan lupa tetap semangat dan terus berkarya.</p>
+  </section>
+
+ <section id="Teacher">
+  <h2>THANK FOR</h2>
+  <ul>
+    <li><strong>Wali Kelas 1:</strong> bu Nur Baya</li>
+    <li><strong>Wali Kelas 2:</strong> bu Melda</li>
+    <li><strong>Wali Kelas 3:</strong> bu Tiwi</li>
+    <li><strong>Wali Kelas 4:</strong> bu Anik</li>
+
+    <li><strong>Wali Kelas 5:</strong><br>1.Pak Kusnadi<br>
+                                      2.Bu Tiya & Bu Tiwi<br>
+                                      3.Pak Addin</li>
+
+    <li><strong>Wali Kelas 6:</strong> bu Serly</li>
+    <li><strong>Guru olahraga:</strong> Pak deden </li>
+    <li><strong>Guru Agama:</strong><br>
+      1.Pak Rifai<br>
+      2.Bu iis</li>
+
+
+<section id="struktur">
+  <h2>Struktur Organisasi Kelas 6B</h2>
+
+  <div class="card-organisasi">
+    <img src="bu sherly.jpeg" alt="bu Sherly">
+    <div class="info">
+      <strong>Wali Kelas:</strong> Bu Sherly
+    </div>
+  </div>
+
+  <div class="card-organisasi">
+    <img src="kapal mirgas.jpeg" alt="Amirah Angelina">
+    <div class="info">
+      <strong>Ketua Kelas:</strong><br> Amirah Angelina P.<br>
+      <strong>Wakil Ketua:</strong><br> Bagas Saputra
+    </div>
+  </div>
+
+
+  <div class="card-organisasi">
+    <img src="lucuuu.jpeg" alt="Bendahara">
+    <div class="info">
+      <strong>Bendahara:</strong><br>
+      1. Arsyila Azzahra R.<br>
+      2. Nadhira Rizqia A.
+    </div>
+  </div>
+
+  <div class="card-organisasi">
+    <img src="iren marah.jpeg" alt="Sekretaris">
+    <div class="info">
+      <strong>Sekretaris:</strong><br>
+      1. Aliya Shakila N.<br>
+      2. Rafi Saputra
+    </div>
+  </div>
+
+  <div class="card-organisasi">
+    <img src="WhatsApp Image 2025-06-11 at 19.41.17.jpeg" alt="Keamanan">
+    <div class="info">
+      <strong>Keamanan:</strong><br>
+      1. Jahrana Azizah<br>
+      2. Simon Alfonso S.
+    </div>
+  </div>
+
+
+  <div class="card-organisasi">
+    <img src="gendeng.jpeg" alt="Kebersihan">
+    <div class="info">
+      <strong>Kebersihan:</strong><br>
+      1. Aisyah Dahlia<br>
+      2. Kayra Alqirani
+
+      <p><strong>Kesehatan:</strong><br>
+      1.Zarin Qaireen R.<br>
+      2.Salsabila Nur F.
+      </p>
+    </div>
+  </div>
+
+</section>
+
+
+  <section id="absen">
+    <h2>Daftar Absen Kelas 6B</h2>
+    <ol>
+      <li>Aisyah Dahlia</li>
+      <li>Alika Altafunisa</li>
+      <li>Aliya Shakila N.</li>
+      <li>Amirah Angelina P.</li>
+      <li>Ariya</li>
+      <li>Arsyila Azzahra R.</li>
+      <li>Azahwa Kirana P.</li>
+      <li>Bagas Saputra</li>
+      <li>Denis Fakhri A.</li>
+      <li>Devita Ristia</li>
+      <li>Jahrana Azizah</li>
+      <li>Kayra Alqirani</li>
+      <li>Ilyas</li>
+      <li>M.Yusuf A.</li>
+      <li>M.Arkan</li>
+      <li>M.Aroby</li>
+      <li>M.Kefin P.</li>
+      <li>M.Refan A.</li>
+      <li>Nadhira Rizqia A.</li>
+      <li>Nur Azmi A.</li>
+      <li>Panji Rezki s.</li>
+      <li>Rafi Saputra</li>
+      <li>Rheisa Asilawarti</li>
+      <li>Salsabila Nur F.</li>
+      <li>Simon Alfonso S.</li>
+      <li>Sukoco Haris J.</li>
+      <li>Syamwil Muhammad</li>
+      <li>Ummi Kalsum</li>
+      <li>Uswah Khaira H.</li>
+      <li>Yulianti Ramadhani</li>
+      <li>Zarin Qaireen R.</li>
+    </ol>
+  </section>
+
+  <section id="galeri">
+    <h2>Galeri Foto Kenangan</h2>
+    <!-- Contoh foto placeholder, kamu bisa ganti link-nya -->
+    <img src="1.jpeg" alt="Foto 1" />
+    <img src="2.jpeg" alt="Foto 2" />
+    <img src="3.jpeg" alt="Foto 3" />
+    <img src="4.jpeg" alt="Foto 4" />
+    <img src="5.jpeg" alt="Foto 5" />
+    <img src="WhatsApp Image 2025-05-30 at 07.23.15.jpeg" />
+    <img src="CIWICIWIII.jpeg" />
+  </section>
+</main>
+
+<footer>© 2025 SDN Pulogebang 05 - Perpisahan Kelas 6B</footer>
+
+</body>
+</html>
